@@ -4,7 +4,9 @@ fun main(args: Array<String>) {
     println("\n")
     print ("Olá, \rtudo bem!")
     println("\n")
-    print ("Olá, \btudo bem!")
+    print ("Olá,\btudo bem!")
+
+    
     /*
          \n     nova linha
          \t     tabulação
