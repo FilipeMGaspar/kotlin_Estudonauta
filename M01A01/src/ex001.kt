@@ -11,11 +11,10 @@ fun main(args: Array<String>) {
     print ("Olá, \"tudo\" bem!")
     println("\n")
     print ("Olá,\ntudo\nbem!")
-    println()
 
+    println("\n")
     println("Linha 1")
     println("Linha 2")
-
     println()
     /*
          \n     nova linha
