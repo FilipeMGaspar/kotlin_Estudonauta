@@ -1,14 +1,12 @@
 fun main(args: Array<String>) {
-    print ("Olá,")
-    print("tudo")
-    print("bem!")
+    print ("Olá, \ttudo bem!")
     /*
-         \n   nova linha
-         \t
-         \b
-         \r
-         \\
-         \"
+         \n     nova linha
+         \t     tabulação
+         \b     backspace
+         \r     retorno
+         \\     bara
+         \"     aspas
     *
     * */
 }
