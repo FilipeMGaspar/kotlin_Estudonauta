@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0661a8b-4ad7-42e5-a601-f98f70b5a811" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/M01A01/Ex001Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M01A01/Ex001Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex001.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex001.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
