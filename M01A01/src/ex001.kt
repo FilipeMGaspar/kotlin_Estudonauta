@@ -1,4 +1,5 @@
 fun main(args: Array<String>) {
+    println()
     print ("Olá, \ttudo bem!")
     println("\n")
     print ("Olá, \ttudo bem!")
