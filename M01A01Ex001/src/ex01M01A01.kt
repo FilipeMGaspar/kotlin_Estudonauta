@@ -5,7 +5,9 @@ fun main(args: Array<String>) {
     println("\n")
 
     println("Kotlin é")
-    println("")
+    println("\"SUPER\"")
+    println("Fácil!")
+    println("\n")
 
     /*
     Kotlin é
