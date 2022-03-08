@@ -6,7 +6,9 @@ fun main(args: Array<String>) {
     println("\n")
     print ("Olá,\btudo bem!")
     println("\n")
-    print ("Olá,\\tudo bem!")
+    print ("Olá, \\tudo bem!")
+    println("\n")
+    print ("Olá, \"tudo\" bem!")
     println()
 
     /*
