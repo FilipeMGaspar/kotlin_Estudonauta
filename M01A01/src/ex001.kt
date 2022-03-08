@@ -3,6 +3,8 @@ fun main(args: Array<String>) {
     print ("Olá, \ttudo bem!")
     println("\n")
     print ("Olá, \rtudo bem!")
+    println("\n")
+    print ("Olá, \btudo bem!")
     /*
          \n     nova linha
          \t     tabulação
