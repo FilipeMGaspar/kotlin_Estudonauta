@@ -5,4 +5,7 @@
 *  Multiplas linhas
 */
 
-/** 
+/** KDoc
+ *
+ *  Para Documentação do sistema
+ */
