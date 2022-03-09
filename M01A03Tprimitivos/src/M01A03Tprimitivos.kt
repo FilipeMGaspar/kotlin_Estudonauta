@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    print(8)
+    print(8.toFloat())
 }
 /*
 * Em KOTLIN
