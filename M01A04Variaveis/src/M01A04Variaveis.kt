@@ -10,4 +10,9 @@ fun main(args: Array<String>) {
         não pode ser uma palavra reservada
 
     * */
+
+    var nome:String =  "Gustavo"
+    var idade:Int = 40
+    var peso:Float = 95.8F //Float termina com F
+    var numGrande:Long = 5_000_000L //Long termina co L
 }
