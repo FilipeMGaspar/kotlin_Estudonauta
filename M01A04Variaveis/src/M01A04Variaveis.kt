@@ -15,4 +15,7 @@ fun main(args: Array<String>) {
     var idade:Short = 40
     var peso:Float = 95.8F //Float termina com F
     var numGrande:Long = 5_000_000L //Long termina co L
+
+    
+    print(nome)
 }
