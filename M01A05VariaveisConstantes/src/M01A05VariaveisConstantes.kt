@@ -1,12 +1,12 @@
 fun main(args: Array<String>) {
 
     var nome:String =  "Gustavo"
-    var idade:Short = 40
+    val idade:Short = 40 //val define como constante ou seja o valor não altera durante a execução do ´codigo
     var peso:Float = 95.8F //Float termina com F
     var numGrande:Long = 5_000_000L //Long termina co L
 
-    idade = 41;
-    
+    //idade = 41;
+
     print("O seu nome é ")
     print(nome)
     print(", e tenho ")
