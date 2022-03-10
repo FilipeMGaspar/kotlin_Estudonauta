@@ -18,4 +18,7 @@ fun main(args: Array<String>) {
 
     print("Seu nome é ")
     print(nome)
-}
+    print(", e tenho ")
+    print(idade)
+    print(" anos!")
+ }
