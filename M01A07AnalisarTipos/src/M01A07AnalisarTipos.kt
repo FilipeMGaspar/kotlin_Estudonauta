@@ -9,5 +9,6 @@ fun main(args: Array<String>) {
     println()
 
     var n1:Int = 10
-    val n2 = 25
+    var n2 = 25
+    println(n2 is Int)
 }
