@@ -11,5 +11,7 @@ fun main(args: Array<String>) {
     var n1:Int = 10
     var n2 = 25F // Declaração por inferencia
     println(n1 is Int)
-    println(n2 is Float)
+    println(n2 is Float) // is Verifica se um objeto é de uma determinada classe
+
+    
 }
