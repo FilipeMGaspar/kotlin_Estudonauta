@@ -13,5 +13,8 @@ fun main(args: Array<String>) {
     println(n1 is Int)
     println(n2 is Float) // is Verifica se um objeto é de uma determinada classe
 
-    
+    var x:Int // Qualquer tipo de dado deve ser evitado, utilizado em funções
+    x = 20
+    X = "Estudonauta"
+
 }
