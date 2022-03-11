@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var n1:Int = 7
+    var n1:Short = 7
     var n2:Int
 
     n2 = n1
