@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    println("Minimo Byte: " + Byte.MIN_VALUE)
-    println("Máximo Byte: " + Byte.MAX_VALUE)
-    println("Tamanho Byte: " + Byte.SIZE_BYTES + " bytes")
+    println("Minimo Byte: " + Int.MIN_VALUE)
+    println("Máximo Byte: " + Int.MAX_VALUE)
+    println("Tamanho Byte: " + Int.SIZE_BYTES + " bytes")
 }
