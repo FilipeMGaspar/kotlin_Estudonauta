@@ -1,4 +1,6 @@
 fun main(args: Array<String>) {
+    //tudo em Kotlin é um objeto
+
     var n1:Short = 7
     var n2:Int
 
@@ -6,7 +8,7 @@ fun main(args: Array<String>) {
 
     println(n1)
     println(n2)
-    //tudo em Kotlin é um objeto
+    println()
 
     /*
     *   Desafio:  Fazer funcionar
@@ -19,7 +21,7 @@ fun main(args: Array<String>) {
     var num1:Float = 21.5F
     var num2:Double
 
-    num2=num1
+    num2=num1.toDouble()
 
     println(num1)
     println(num2)
