@@ -1,9 +1,13 @@
 fun main(args: Array<String>) {
-    println("Minimo Byte: " + Int.MIN_VALUE)
-    println("Máximo Byte: " + Int.MAX_VALUE)
-    println("Tamanho Byte: " + Int.SIZE_BYTES + " bytes")
+    println("Minimo Byte: " + Short.MIN_VALUE)
+    println("Máximo Byte: " + Short.MAX_VALUE)
+    println("Tamanho Byte: " + Short.SIZE_BYTES + " bytes")
 
     println()
     var nome:String = "Gustavo"
     println(nome.length)
+    println()
+
+    var n1:Int = 10
+    val n2 = 25
 }
