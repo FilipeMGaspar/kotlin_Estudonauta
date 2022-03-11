@@ -10,5 +10,6 @@ fun main(args: Array<String>) {
 
     var n1:Int = 10
     var n2 = 25
+    println(n1 is Int)
     println(n2 is Int)
 }
