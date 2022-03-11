@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     println()
 
     var n1:Int = 10
-    var n2 = 25
+    var n2 = 25F // Declaração por inferencia
     println(n1 is Int)
-    println(n2 is Int)
+    println(n2 is Float)
 }
