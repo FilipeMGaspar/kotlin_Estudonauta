@@ -15,11 +15,18 @@ fun main(args: Array<String>) {
     var n:Int
 
     x = null
-    n = x!!
+    try {
+        n = x!! // Tenta fazer, executar
+    }catch (e: java.lang.NullPointerException){
+
+    }finally {
+
+    }
+
 
     println("A vale : " + x)
     println("B vale : " + n)
-    
+
     /*
     *  ?  safe call
     *
