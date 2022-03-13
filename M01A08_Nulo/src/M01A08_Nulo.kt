@@ -5,8 +5,8 @@ fun main(args: Array<String>) {
     var a:Int?
     var b:Int
 
-    a = null
-    b = a?:0  //coloca o valr de a se não for null senao coloca 0
+    a = 50
+    b = a ?: 0  //coloca o valr de a se não for null senao coloca 0
 
     println("A vale : " + a)
     println("B vale : " + b)
