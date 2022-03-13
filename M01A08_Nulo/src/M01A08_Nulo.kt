@@ -11,6 +11,12 @@ fun main(args: Array<String>) {
     println("A vale : " + a)
     println("B vale : " + b)
 
+    var x:Int?
+    var n:Int
+
+    x = null
+    n = x 
+
     /*
     *  ?  safe call
     *
