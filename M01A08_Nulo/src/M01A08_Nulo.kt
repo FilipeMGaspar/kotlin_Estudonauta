@@ -15,8 +15,11 @@ fun main(args: Array<String>) {
     var n:Int
 
     x = null
-    n = x 
+    n = x!!
 
+    println("A vale : " + x)
+    println("B vale : " + n)
+    
     /*
     *  ?  safe call
     *
