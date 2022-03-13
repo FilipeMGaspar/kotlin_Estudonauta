@@ -19,14 +19,14 @@ fun main(args: Array<String>) {
         n = x!! // Tenta fazer, executar
     }catch (e: java.lang.NullPointerException){
         println("Deu problema mas estou a resolver!")
-        n = 52;
+        n = 10;
     }finally {
-
+        println("O valor de X é " + x)
+        println("o valor de n é " + n)
     }
 
 
-    println("A vale : " + x)
-    println("B vale : " + n)
+
 
     /*
     *  ?  safe call
