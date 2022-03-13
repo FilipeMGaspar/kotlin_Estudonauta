@@ -18,7 +18,8 @@ fun main(args: Array<String>) {
     try {
         n = x!! // Tenta fazer, executar
     }catch (e: java.lang.NullPointerException){
-
+        println("Deu problema mas estou a resolver!")
+        n = 52;
     }finally {
 
     }
