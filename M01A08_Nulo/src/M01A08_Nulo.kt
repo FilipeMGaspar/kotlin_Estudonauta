@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
 
     var x:Int?
     var n:Int
+    n = 0;
 
     x = null
     try {
