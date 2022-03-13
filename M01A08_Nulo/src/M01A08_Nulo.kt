@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     b = a ?: 0  //coloca o valr de a se não for null senao coloca 0
 
     println("A vale : " + a)
-    println("B vale : " + b)
+    println("B vale : " + b + "\n")
 
     var x:Int?
     var n:Int
