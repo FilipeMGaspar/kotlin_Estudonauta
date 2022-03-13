@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     var a:Int?
     var b:Int
 
-    a = 8
+    a = null
     b = a
 
     println("A vale : " + a)
