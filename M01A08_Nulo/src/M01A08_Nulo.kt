@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var nome:String
+    var nome:Any
     nome = null
     println()
 }
