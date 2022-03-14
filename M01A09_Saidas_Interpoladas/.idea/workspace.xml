@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4cde7c0e-1609-4df3-abe0-c1db8da78411" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/M01A09saidasInterpoladasKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/META-INF/M01A09_Saidas_Interpoladas.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M01A09saidasInterpoladas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A09saidasInterpoladas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/M01A09saidasInterpoladasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/M01A09saidasInterpoladasKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
