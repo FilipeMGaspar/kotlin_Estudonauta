@@ -1,4 +1,8 @@
 fun main(args: Array<String>) {
+// string interpoladas
+    
+
+/*
 //Strings cruas
     println("""
        Menu Principal
@@ -7,6 +11,7 @@ fun main(args: Array<String>) {
          [3] Formatar
          [4] ....
     """)
+*/
 
 /*  println("Menu principal")
     println("[1]  Novo")
