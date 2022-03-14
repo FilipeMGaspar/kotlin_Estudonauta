@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cde7c0e-1609-4df3-abe0-c1db8da78411" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/M01A09saidasInterpoladasKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M01A09_Saidas_Interpoladas/META-INF/M01A09_Saidas_Interpoladas.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/M01A09saidasInterpoladas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A09saidasInterpoladas.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
