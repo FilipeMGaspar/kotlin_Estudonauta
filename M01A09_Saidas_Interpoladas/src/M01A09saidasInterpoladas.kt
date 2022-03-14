@@ -1,5 +1,8 @@
 fun main(args: Array<String>) {
 // string interpoladas
+    val ano = 2022  //Constante
+    val nasc = 1985
+
     
 
 /*
