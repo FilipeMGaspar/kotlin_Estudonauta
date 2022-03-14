@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     val ano = 2022  //Constante
     val nasc = 1985
 
-    println("você nasceu em $nasc e hoje estamos em $ano")
+    println("você nasceu em $nasc e hoje estamos em $ano então você tem ${$ano -$nas} anos de idade!")
 
 /*
 //Strings cruas
