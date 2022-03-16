@@ -12,5 +12,6 @@ fun main(args: Array<String>) {
     *
     * */
 
-    println("Olá Mundo!")
+    println("\n")
+    println("\u001B[33mOlá Mundo!")
 }
