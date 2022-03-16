@@ -13,5 +13,5 @@ fun main(args: Array<String>) {
     * */
 
     println("\n")
-    println("\u001B[33mOlá Mundo!")
+    println("\u001B[33mOlá\u001B[00m, Mundo!")
 }
