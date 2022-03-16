@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-// string interpoladas
+// String interpoladas
     val ano = 2022  //Constante
     val nasc = 1985
 
@@ -12,9 +12,7 @@ fun main(args: Array<String>) {
        você nasceu em $nasc, certo?
        E atualmente estamos em $ano
        Logo, fazendo as contas, você
-       faz ${ano - nasc} anos até ao fim do ano de $ano
-       
-         
+       faz ${ano - nasc} anos até ao fim do ano de $ano        
     """)
 
 /*
