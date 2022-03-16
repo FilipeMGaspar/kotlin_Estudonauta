@@ -12,6 +12,8 @@ fun main(args: Array<String>) {
     *
     * */
 
+    val AMARELO:String = "\u001B[33m"
+    val RESET:String = "\u001B[00m"
     println("\n")
-    println("\u001B[33mOlá\u001B[00m, Mundo!")
+    println("${AMARELO}Olá${RESET}, Mundo!")
 }
