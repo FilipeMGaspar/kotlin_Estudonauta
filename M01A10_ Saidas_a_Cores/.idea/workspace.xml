@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647167c5-80ac-483a-9fbf-d34805a9c656" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/M01A10_ Saidas_a_Cores/M01A10__Saidas_A_coresKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M01A10_ Saidas_a_Cores/M01A10__Saidas_A_coresKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/M01A10 _Saidas_A_cores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A10 _Saidas_A_cores.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
