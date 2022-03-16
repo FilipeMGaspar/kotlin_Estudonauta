@@ -12,8 +12,12 @@ fun main(args: Array<String>) {
     *
     * */
 
-    val AMARELO:String = "\u001B[33m"
+    //Códigos para Cores
+    val PRETO:String = "\u001B[30m"
     val RESET:String = "\u001B[00m"
+    val AMARELO:String = "\u001B[33m"
+
+
     println("\n")
     println("${AMARELO}Olá${RESET}, Mundo!")
 }
