@@ -6,10 +6,10 @@ fun main(args: Array<String>) {
     *   nome = readLine()
     * */
 
-    var nome:String
+
     println()
     print("Qual é o seu nome? ")
-    nome = readLine()!! // Null Check
+    var nome:String = readLine()!! // Null Check
     println("Olá ${nome}, seja bem vindo!")
     println()
 
