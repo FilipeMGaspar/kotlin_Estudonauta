@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 
     println()
     print("Qual é o seu nome? ")
-    var nome:String = readLine()!! // Null Check
+    val nome:String = readLine()!! // Null Check
     println("Olá ${nome}, seja bem vindo!")
     println()
 
