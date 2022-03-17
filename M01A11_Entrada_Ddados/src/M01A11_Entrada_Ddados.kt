@@ -5,4 +5,7 @@ fun main(args: Array<String>) {
     *   print("Qual é o seu nome: ")
     *   nome = readLine()
     * */
+
+    var nome:String
+    print("Qual é o seu nome? ")
 }
