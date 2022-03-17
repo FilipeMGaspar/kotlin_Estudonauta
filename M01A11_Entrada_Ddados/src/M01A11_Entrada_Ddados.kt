@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     print("Quantos anos você tem, ${nome}? ")
     val idade:Int = readLine()!!.toInt()
     println()
-    println("O ${nome} tem ${idade} anos")
+    println("Olá, ${nome}, você tem ${idade} anos")
     println()
 
 }
