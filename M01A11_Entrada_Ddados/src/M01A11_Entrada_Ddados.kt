@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     *   nome = readLine()
     * */
 
-    var nome:String
+    var nome:String?
     println()
     print("Qual é o seu nome? ")
     nome = readLine()
