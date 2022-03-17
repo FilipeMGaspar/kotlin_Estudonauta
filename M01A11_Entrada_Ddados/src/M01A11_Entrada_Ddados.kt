@@ -10,8 +10,10 @@ fun main(args: Array<String>) {
     println()
     print("Qual é o seu nome? ")
     val nome:String = readLine()!! // Null Check
-    println("Quantos anos você tem, ${nome}? ")
+    print("Quantos anos você tem, ${nome}? ")
     val idade:Int = readLine()!!.toInt()
+    println()
+    println("O ${nome} tem ${idade} anos")
     println()
 
 }

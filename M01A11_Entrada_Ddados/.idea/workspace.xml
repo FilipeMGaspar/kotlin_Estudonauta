@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edf4630c-9a07-4edf-a11d-b241c0bc05da" name="Changes" comment="" />
+    <list default="true" id="edf4630c-9a07-4edf-a11d-b241c0bc05da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/M01A11_Entrada_Ddados.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A11_Entrada_Ddados.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
