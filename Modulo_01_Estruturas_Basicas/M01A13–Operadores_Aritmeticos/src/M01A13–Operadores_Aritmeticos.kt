@@ -14,5 +14,5 @@ fun main(args: Array<String>) {
     val n1:Int = 5
     val n2:Int = 2
 
-    println()
+    println("$n1 + $n2 0 ${n1 + n2} ")
 }
