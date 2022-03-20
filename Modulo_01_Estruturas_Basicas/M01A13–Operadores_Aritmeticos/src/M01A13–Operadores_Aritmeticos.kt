@@ -8,6 +8,8 @@ fun main(args: Array<String>) {
         *   Multiplicação                   .times()
         /   Divisão                         .div()
         %   Resto da divisão inteira        .mod()
+                        OU
+        %   Resto da divisão inteira        .ram()
 
     * */
 
