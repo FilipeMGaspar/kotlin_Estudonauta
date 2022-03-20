@@ -5,9 +5,9 @@ fun main(args: Array<String>) {
 
         +   Soma                            .plus()
         -   Subtração                       .minus()
-        *   Multiplicação
-        /   Divisão
-        %   Resto da divisão inteira
+        *   Multiplicação                   .times()
+        /   Divisão                         .div()
+        %   Resto da divisão inteira        .mod()
 
     * */
 }
