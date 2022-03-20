@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
         /   Divisão                         .div()
         %   Resto da divisão inteira        .mod()
                         OU
-        %   Resto da divisão inteira        .ram()
+        %   Resto da divisão inteira        .rem()
 
     * */
 
@@ -20,8 +20,8 @@ fun main(args: Array<String>) {
     println("$n1 + $n2 = ${n1.plus(n2)} ")
     println("$n1 - $n2 = ${n1.minus(n2)} ")
     println("$n1 X $n2 = ${n1.times(n2)} ")
-    println("$n1 / $n2 = ${n1.div(n2)} ")
-    println("$n1 % $n2 = ${n1.mod(n2)} ")
+    println("$n1 / $n2 = ${n1.div(n2.toFloat())} ")
+    println("$n1 % $n2 = ${n1.rem(n2)} ")
 
 /* OU
     println()
