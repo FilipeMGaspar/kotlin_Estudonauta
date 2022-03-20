@@ -25,6 +25,8 @@ fun main(args: Array<String>) {
     numa divisão
 
         Int/Int = Int
-        
+        Float/Int = Float
+        Int/Float = Float
+        Float/Float = Float
     * */
 }
