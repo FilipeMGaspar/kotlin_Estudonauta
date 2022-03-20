@@ -10,4 +10,9 @@ fun main(args: Array<String>) {
         %   Resto da divisão inteira        .mod()
 
     * */
+
+    val n1:Int = 5
+    val n2:Int = 2
+
+    println()
 }
