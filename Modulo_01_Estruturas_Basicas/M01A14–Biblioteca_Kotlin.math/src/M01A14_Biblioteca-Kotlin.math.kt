@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 
     println()
     println("Raiz quadrada: ${sqrt(25f)}")
-    println("Potência: ")
+    println("Potência: ${7f.pow(2)}")
     println("Arredonda acima: ")
     println("Arredonda: ")
     println("Arredonda abaixo: ")
