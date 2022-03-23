@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     println("Raiz quadrada: ${sqrt(25f)}")
     println("Potência: ${7f.pow(2)}")
     println("Arredonda acima: ${ceil(8.123f)}")
-    println("Arredonda: ")
+    println("Arredonda: ${9.5.roundToInt()}")
     println("Arredonda abaixo: ")
     println("Maior: ")
     println("Menor: ")
