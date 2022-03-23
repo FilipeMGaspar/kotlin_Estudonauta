@@ -1,3 +1,6 @@
+import kotlin.math
+import kotlin.math.sqrt
+
 fun main(args: Array<String>) {
     /*
     *   .sqrt()         Raiz quadrada
@@ -10,7 +13,7 @@ fun main(args: Array<String>) {
     * */
 
     println()
-    println("Raiz quadrada: ")
+    println("Raiz quadrada: ${sqrt(x:25f)}")
     println("Potência: ")
     println("Arredonda acima: ")
     println("Arredonda: ")
