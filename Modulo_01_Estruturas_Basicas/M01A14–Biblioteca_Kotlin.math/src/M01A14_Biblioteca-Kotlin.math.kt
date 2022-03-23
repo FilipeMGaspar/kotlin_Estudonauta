@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     println("Arredonda acima: ${ceil(2.123f)}")
     println("Arredonda: ${9.3.roundToInt()}")
     println("Arredonda abaixo: ${floor(8.8f)}")
-    println("Maior: ")
-    println("Menor: ")
+    println("Maior: ${max(7,9)}")
+    println("Menor: ${min(11,5)}")
     println()
 }
