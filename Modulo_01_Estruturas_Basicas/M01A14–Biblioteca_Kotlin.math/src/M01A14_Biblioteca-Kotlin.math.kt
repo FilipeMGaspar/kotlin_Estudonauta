@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     *   .ceill()        Adondamento por excesso
     *   .roudToInt()    Arredondamento inteiro
     *   .floor()        Adondamento por defeito
-    *   .max()
-    *
+    *   .max()          Máximo
+    *   .min()          Minimo
     * */
 }
