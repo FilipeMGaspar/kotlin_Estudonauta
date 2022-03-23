@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     println("$n1 menor que $n2? ${n1 < n2}")
     println("$n1 maior ou igual a $n2? ${n1 >= n2}")
     println("$n1 menor ou igual a $n2? ${n1 <= n2}")
-    println("$n1 igual a $n2? ")
-    println("$n1 diferente de $n2? ")
+    println("$n1 igual a $n2? ${n1 == n2}")
+    println("$n1 diferente de $n2? ${n1 != n2}")
     println()
 }
