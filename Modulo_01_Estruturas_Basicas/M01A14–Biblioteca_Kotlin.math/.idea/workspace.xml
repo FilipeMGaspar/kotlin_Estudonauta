@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70fae1a4-f8ef-4932-bc42-4778ac17d14c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/M01A14_Biblioteca-Kotlin.math.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A14_Biblioteca-Kotlin.math.kt" afterDir="false" />
