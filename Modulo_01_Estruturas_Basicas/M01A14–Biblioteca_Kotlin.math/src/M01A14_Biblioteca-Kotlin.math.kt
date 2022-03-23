@@ -4,6 +4,8 @@ fun main(args: Array<String>) {
     *   .pow()          Exponenciação
     *   .ceill()        Adondamento por excesso
     *   .roudToInt()    Arredondamento inteiro
+    *   .floor()        Adondamento por defeito
+    *   .max()
     *
     * */
 }
