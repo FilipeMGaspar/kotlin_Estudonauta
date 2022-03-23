@@ -8,4 +8,11 @@ fun main(args: Array<String>) {
     *   .max()          Máximo
     *   .min()          Minimo
     * */
+
+    println()
+    println("Raiz quadrada: ")
+    println("Potência: ")
+    println("Arredonda acima: ")
+    println("Arredonda: ")
+    println()
 }
