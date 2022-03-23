@@ -14,5 +14,8 @@ fun main(args: Array<String>) {
     println("Potência: ")
     println("Arredonda acima: ")
     println("Arredonda: ")
+    println("Arredonda abaixo: ")
+    println("Maior: ")
+    println("Menor: ")
     println()
 }
