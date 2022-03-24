@@ -10,6 +10,9 @@
 fun main(args: Array<String>) {
     var pass:Float = 8.65f
 
+    println()
+    println("O bilhete de autocarro custa $pass €")
+
 /*
     var tv:Int = 4;
 
