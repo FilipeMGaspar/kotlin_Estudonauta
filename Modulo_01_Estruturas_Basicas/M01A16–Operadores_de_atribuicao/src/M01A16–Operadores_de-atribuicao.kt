@@ -8,6 +8,12 @@
 *
  */
 fun main(args: Array<String>) {
+
+    var x = 5
+    x %= 2
+    println(x)
+
+/*
     var pass:Float = 8.65f
     var aumtoPass:Float
     println()
@@ -16,6 +22,7 @@ fun main(args: Array<String>) {
     println("O bilhete de autocarro vai amentar $aumtoPass €")
     pass += aumtoPass
     println("Com o aumento o bilhete do autocarro custa $pass €")
+*/
 
 /*
     var tv:Int = 4;
