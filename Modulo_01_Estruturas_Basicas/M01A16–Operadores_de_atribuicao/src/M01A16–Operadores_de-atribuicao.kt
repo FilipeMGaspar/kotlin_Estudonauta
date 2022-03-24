@@ -9,9 +9,11 @@
  */
 fun main(args: Array<String>) {
     var pass:Float = 8.65f
-
+    var aumtoPass:Float
     println()
     println("O bilhete de autocarro custa $pass €")
+    aumtoPass = 0.15f
+    println("O bilhete de autocarro vai amentar $aumtoPass €")
 
 /*
     var tv:Int = 4;
