@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     aumtoPass = 0.15f
     println("O bilhete de autocarro vai amentar $aumtoPass €")
     pass += aumtoPass
-    println("")
+    println("Com o aumento o bilhete do autocarro custa $pass")
 
 /*
     var tv:Int = 4;
