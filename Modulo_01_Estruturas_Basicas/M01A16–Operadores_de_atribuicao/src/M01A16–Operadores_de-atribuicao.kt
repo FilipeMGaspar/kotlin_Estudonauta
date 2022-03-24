@@ -12,5 +12,6 @@ fun main(args: Array<String>) {
 
     println()
     println("Você tem $tv aparelhos em casa!")
-    //tv += 3
+    tv += 3
+    println("Neste momento você tem $tv aparelhos!")
 }
