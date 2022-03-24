@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     var aumtoPass:Float
     println()
     println("O bilhete de autocarro custa $pass €")
-    aumtoPass = 0.155f
+    aumtoPass = 0.25f
     println("O bilhete de autocarro vai amentar $aumtoPass €")
     pass += aumtoPass
     println("Com o aumento o bilhete do autocarro custa $pass")
