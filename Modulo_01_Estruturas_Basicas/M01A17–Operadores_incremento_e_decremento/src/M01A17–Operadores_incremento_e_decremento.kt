@@ -16,6 +16,7 @@ fun main(args: Array<String>) {
 
     var res = a + b + c
 
+    println()
     println("Os valores $a $b $c")
     println("O resultado é $res")
 
@@ -28,7 +29,6 @@ fun main(args: Array<String>) {
     println("\nOs valores são $x e $y")
 */
 
- */
     /*
     var n:Int = 7
     //n++  // n = n +1
