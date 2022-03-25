@@ -11,7 +11,9 @@ fun main(args: Array<String>) {
     * */
 
     var x = 4
-    var y = x++
+   // var y = x++  // a++ pós incremento
+
+    var y = ++x  // ++a pré incremento
 
     println("\nOs valores são $x e $y")
 
