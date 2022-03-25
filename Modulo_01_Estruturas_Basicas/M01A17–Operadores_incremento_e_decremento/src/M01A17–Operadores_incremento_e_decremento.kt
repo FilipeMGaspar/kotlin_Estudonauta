@@ -4,5 +4,10 @@ fun main(args: Array<String>) {
     *
     *   --      .dec()
     *
+    *   a++   -> a = a + 1
+    *
+    *   a--   -> a = a - 1
+    *
     * */
+    
 }
