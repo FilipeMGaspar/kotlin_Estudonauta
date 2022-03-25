@@ -16,7 +16,8 @@ fun main(args: Array<String>) {
 
     var res = a + b + c
 
-    print("Os valores $a $b $c")
+    println("Os valores $a $b $c")
+    println("O resultado é $res")
 
 /*
     var x = 4
