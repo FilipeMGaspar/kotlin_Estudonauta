@@ -10,8 +10,15 @@ fun main(args: Array<String>) {
     *
     * */
 
+    var x = 4
+    var y = x
+
+    println("\nOs valores são $x e $y")
+
+    /*
     var n:Int = 7
     //n++  // n = n +1
-    n = n.inc() // n = n + 1
+    n = n.inc() // n = n + 1    não funciona só colocar n.inc
     println("\nA variavel tem o valor de $n")
+    */
 }
