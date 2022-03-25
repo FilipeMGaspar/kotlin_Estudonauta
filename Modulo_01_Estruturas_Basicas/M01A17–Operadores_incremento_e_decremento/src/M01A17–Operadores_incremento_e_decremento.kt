@@ -11,6 +11,6 @@ fun main(args: Array<String>) {
     * */
 
     var n:Int = 7
-
-    println("A variavel tem o valor de $n")
+    n++
+    println("\nA variavel tem o valor de $n")
 }
