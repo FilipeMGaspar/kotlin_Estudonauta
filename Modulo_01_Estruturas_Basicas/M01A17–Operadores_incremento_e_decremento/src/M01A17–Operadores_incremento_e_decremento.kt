@@ -9,5 +9,8 @@ fun main(args: Array<String>) {
     *   a--   -> a = a - 1
     *
     * */
-    
+
+    var n:Int = 7
+
+    println("A variavel tem o valor de $n")
 }
