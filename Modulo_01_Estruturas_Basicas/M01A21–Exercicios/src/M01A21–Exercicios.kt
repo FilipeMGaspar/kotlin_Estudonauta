@@ -81,19 +81,19 @@
 *
 *
 * ============================================
-*     Exercício 8
+*     Exercício 8         Somente 50, 10, 2, 1
 *
 *  -----------------------------
-*       Reajuste Salarial
+*       Banco Estudonauta
 *  -----------------------------
 *
-*       Salário: R$  1000
-*       Reajuste (%): 10
+*       Que valor você quer sacar? R$ 1235
 *
 *   ---------- Reajustando  ----------
-*   O salário anterior era R$ 1000,00
-*   O aumento será de      10.0%
-*   E passará a ganhar     R$ 1100,00
+*   R$50,00      =  24  cédula(s)
+*   R$10,00      =  3   cédula(s)
+*   R$2,00       =  2   cédula(s)
+*   R$1,00       =  1   moeda(s)
 *   ---------------------------------------
 *
 * */
