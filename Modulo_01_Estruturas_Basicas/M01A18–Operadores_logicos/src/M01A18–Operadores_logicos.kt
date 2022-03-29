@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     var v4 = 2
 
     //var res = !(v1 < v2) && v2 == v1 + v3
-    var res = v1 > v2 && !(v3 - 1 != v1 / v4)
+    var res = v1 < v2 && !(v3 - 1 != v1 / v4)
 
     println()
     println("O resultado da expressão é [$res]")
