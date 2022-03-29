@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     println("Mês Atual: ${dh.monthValue}")
     println("Ano Atual: ${dh.year}")
     println("====================")
-    println()
-    println()
-    println()
+    println("Hora Atual: ${dh.hour}")
+    println("Minuto Atual: ${dh.minute}")
+    println("Segundo Atual: ${dh.second}")
 }
