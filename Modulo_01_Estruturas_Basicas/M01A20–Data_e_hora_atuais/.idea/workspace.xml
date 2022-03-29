@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3842ae8d-f3fb-411e-a488-c8674a0c52a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/M01A20–Data_e_hora_atuais.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/M01A20–Data_e_hora_atuais.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
