@@ -103,12 +103,12 @@
 *       Tente Adivinhar
 *  -----------------------------
 *   Vou "pensar" em um número entre 0 e 5
-*   Seu palpite: 2
+*   Seu palpite: 1
 *
 *   ---------- Resultados  ----------
-*   você disse que seria o valor 2
-*   Eu pensei no número 2
-*   A diferença foi de 0
+*   você disse que seria o valor 1
+*   Eu pensei no número 3
+*   A diferença foi de 2
 *   ---------------------------------------
 *
 * */
