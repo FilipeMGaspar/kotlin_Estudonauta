@@ -16,6 +16,15 @@ fun main(args: Array<String>) {
     *   ||      Disjunção    OR
     *    !      Negação      NOT
     *
+    *
+    *
+    *   Ordem de precedência
+    *
+    *       Parênteses
+    *       Aritméticos
+    *       Relacionais
+    *       Lógicos
+    *   
 
 *     Conjunção     AND (E)
 *___________________________
