@@ -89,6 +89,22 @@
 *
 *       Que valor você quer sacar? R$ 1235
 *
+*   ---------- saque realizado  ----------
+*   R$50,00      =  24  cédula(s)
+*   R$10,00      =  3   cédula(s)
+*   R$2,00       =  2   cédula(s)
+*   R$1,00       =  1   moeda(s)
+*   ---------------------------------------
+*
+* ============================================
+*     Exercício 9
+*
+*  -----------------------------
+*       Tente Adivinhar
+*  -----------------------------
+*   Vou "pensar" em um número entre 0 e 5
+*   Seu palpite: 2
+*
 *   ---------- Reajustando  ----------
 *   R$50,00      =  24  cédula(s)
 *   R$10,00      =  3   cédula(s)
