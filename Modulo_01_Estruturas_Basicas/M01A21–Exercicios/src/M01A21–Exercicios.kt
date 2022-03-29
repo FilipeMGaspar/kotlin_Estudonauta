@@ -105,11 +105,10 @@
 *   Vou "pensar" em um número entre 0 e 5
 *   Seu palpite: 2
 *
-*   ---------- Reajustando  ----------
-*   R$50,00      =  24  cédula(s)
-*   R$10,00      =  3   cédula(s)
-*   R$2,00       =  2   cédula(s)
-*   R$1,00       =  1   moeda(s)
+*   ---------- Resultados  ----------
+*   você disse que seria o valor 2
+*   Eu pensei no número 2
+*   A diferença foi de 0
 *   ---------------------------------------
 *
 * */
