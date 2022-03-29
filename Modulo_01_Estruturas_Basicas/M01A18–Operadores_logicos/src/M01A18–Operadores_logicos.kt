@@ -1,16 +1,19 @@
 fun main(args: Array<String>) {
-    /*
-    *
+    var v1 = 5
+    var v2 = 8
+    var v3 = 3
+    var v4 = 2
+
+    var res = 0
+
+}
+
+/*
     *   &&      Conjunção    AND
     *   ||      Disjunção    OR
     *    !      Negação      NOT
     *
-    *
-    *
-    * */
-}
 
-/*
 *     Conjunção     AND (E)
 *___________________________
 *     A     B       A && B
