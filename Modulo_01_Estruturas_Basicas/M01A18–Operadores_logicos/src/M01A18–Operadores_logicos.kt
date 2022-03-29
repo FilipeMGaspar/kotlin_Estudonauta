@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
     *       Aritméticos
     *       Relacionais
     *       Lógicos
-    *   
+    *               !      &&      ||
 
 *     Conjunção     AND (E)
 *___________________________
