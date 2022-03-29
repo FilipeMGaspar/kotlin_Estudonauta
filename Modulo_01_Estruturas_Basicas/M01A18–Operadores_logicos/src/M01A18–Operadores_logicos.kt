@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
 
     var res = 0
 
+    println("O resultado da expressão é $res")
+
 }
 
 /*
