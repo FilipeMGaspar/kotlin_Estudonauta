@@ -4,9 +4,9 @@ fun main(args: Array<String>) {
     var v3 = 3
     var v4 = 2
 
-    var res = 0
+    var res = v1 > v2
 
-    println("O resultado da expressão é $res")
+    println("O resultado da expressão é [$res]")
 
 }
 
