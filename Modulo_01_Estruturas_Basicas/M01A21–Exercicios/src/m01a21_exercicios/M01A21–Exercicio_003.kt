@@ -3,7 +3,7 @@ package m01a21_exercicios
 fun main(args: Array<String>) {
     println(VERMELHO)
     println("------------------------------------")
-    println("\tCADASTRO ESTUDONAUTA")
+    println("\t\tCADASTRO ESTUDONAUTA")
     println("------------------------------------")
 }
 
