@@ -1,6 +1,9 @@
 package m01a21_exercicios
 
+import java.time.LocalDateTime
+
 fun main(args: Array<String>) {
+    
     println(VERMELHO)
     println("------------------------------------")
     println("\t\tCADASTRO ESTUDONAUTA")
