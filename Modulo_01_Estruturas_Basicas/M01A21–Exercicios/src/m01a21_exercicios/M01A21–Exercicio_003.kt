@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
     print("Nome do Funcionário: ")
     var nome:String = readLine()!!
     print("Ano de Nascimento: ")
+    var anoNascimento:Int = readLine()!!.toIntOrNull()?:0
     print("Salário: R$ ")
 }
 
