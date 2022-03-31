@@ -11,6 +11,7 @@ fun main(args: Array<String>) {
     print("Ano de Nascimento: ")
     var anoNascimento:Int = readLine()!!.toIntOrNull()?:0
     print("Salário: R$ ")
+    var salario:Float = readLine()!!.toFloatOrNull()?:0f
 }
 
 /*
