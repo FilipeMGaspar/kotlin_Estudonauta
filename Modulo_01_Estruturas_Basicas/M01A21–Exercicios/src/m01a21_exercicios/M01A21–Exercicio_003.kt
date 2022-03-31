@@ -5,6 +5,11 @@ fun main(args: Array<String>) {
     println("------------------------------------")
     println("\t\tCADASTRO ESTUDONAUTA")
     println("------------------------------------")
+    print(RESET)
+    print("Nome do Funcionário: ")
+    var nome:String = readLine()!!
+    print("Ano de Nascimento: ")
+    print("Salário: R$ ")
 }
 
 /*
