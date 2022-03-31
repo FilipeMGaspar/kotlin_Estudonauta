@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     var salario:Float = readLine()!!.toFloatOrNull()?:0f
     println(AMARELO)
     println("--------- FICHA FUNCIONAL ---------")
-    println("Nome:${RESET}\t\t ${CIANO} ${nome} ${RESET}")
+    println("Nome:${RESET}\t\t\t ${CIANO} ${nome} ${RESET}")
     println("${AMARELO}Nascimento:${RESET}\t\t ${CIANO} ${anoNascimento} ${RESET}")
     println("${AMARELO}Salário:${RESET}\t\t ${CIANO} ${salario} ${RESET}")
 
