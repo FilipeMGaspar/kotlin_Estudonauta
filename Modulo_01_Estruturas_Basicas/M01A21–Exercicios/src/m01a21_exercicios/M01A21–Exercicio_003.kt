@@ -1,9 +1,10 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
-    println(MAGENTA)
-    println()
-    println("Olá Mundo")
+    println(VERMELHO)
+    println("------------------------------------")
+    println("\t")
+    println("------------------------------------")
 }
 
 /*
