@@ -12,6 +12,11 @@ fun main(args: Array<String>) {
     var anoNascimento:Int = readLine()!!.toIntOrNull()?:0
     print("Salário: R$ ")
     var salario:Float = readLine()!!.toFloatOrNull()?:0f
+    println(AMARELO)
+    println("--------- FICHA FUNCIONAL ---------")
+    
+    println("-----------------------------------")
+    print(RESET)
 }
 
 /*
