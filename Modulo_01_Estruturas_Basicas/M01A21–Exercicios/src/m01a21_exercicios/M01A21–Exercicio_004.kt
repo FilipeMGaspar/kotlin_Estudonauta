@@ -15,11 +15,11 @@ fun main(args: Array<String>) {
     val2 = readLine()!!.toIntOrNull()?:0
 
     println("${AMARELO}------------ RESULTADOS ------------")
-    println("Soma: ${RESET} ${AZUL} \t\t ${val1} + ${val2} = ${RESET} ${MAGENTA} ${val1 + val2} ${RESET}")
-    println("${AMARELO}Subtração: ${RESET} ${AZUL} \t ${val1} - ${val2} = ${RESET} ${MAGENTA} ${val1 - val2} ${RESET}")
+    println("Soma: ${RESET} ${AZUL} \t\t\t ${val1} + ${val2} = ${RESET} ${MAGENTA} ${val1 + val2} ${RESET}")
+    println("${AMARELO}Subtração: ${RESET} ${AZUL} \t\t ${val1} - ${val2} = ${RESET} ${MAGENTA} ${val1 - val2} ${RESET}")
     println("${AMARELO}Multiplicação: ${RESET} ${AZUL}  ${val1} * ${val2} = ${RESET} ${MAGENTA} ${val1 * val2} ${RESET}")
-    println("${AMARELO}Divisão: ${RESET} ${AZUL} \t ${val1} / ${val2} = ${RESET} ${MAGENTA} ${val1.toFloat() / val2.toFloat()} ${RESET}")
-    println("${AMARELO}Módulo: ${RESET} ${AZUL} \t\t ${val1} % ${val2} = ${RESET} ${MAGENTA} ${val1 % val2} ${RESET}")
+    println("${AMARELO}Divisão: ${RESET} ${AZUL} \t\t ${val1} / ${val2} = ${RESET} ${MAGENTA} ${val1.toFloat() / val2.toFloat()} ${RESET}")
+    println("${AMARELO}Módulo: ${RESET} ${AZUL} \t\t\t ${val1} % ${val2} = ${RESET} ${MAGENTA} ${val1 % val2} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
