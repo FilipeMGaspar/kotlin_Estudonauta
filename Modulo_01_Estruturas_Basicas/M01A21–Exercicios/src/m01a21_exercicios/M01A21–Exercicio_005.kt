@@ -5,14 +5,15 @@ fun main(args: Array<String>) {
     var nota2:Float
 
     println("${VERMELHO}--------------------------------------")
-    println("\tNOTAS ESTUDONAUTA")
+    println("\t\tNOTAS ESTUDONAUTA")
     println("--------------------------------------${RESET}")
     print("Nota 1: ")
     nota1 = readLine()!!.toFloatOrNull()?:0f
     print("Nota 2: ")
     nota2 = readLine()!!.toFloatOrNull()?:0f
-    println("${AMARELO}------------ RESULTADOS ----------------")
+    println("${AMARELO}\n------------ RESULTADOS ----------------")
     println("As notas do aluno foram${RESET}${MAGENTA} ${nota1}${RESET}${AMARELO} e${RESET}${MAGENTA} ${nota2}${RESET}")
+    println("${AMARELO}A média final foi${RESET}${MAGENTA} ${(nota1 + nota2) / 2}${RESET}")
     println("${AMARELO}----------------------------------------${RESET}")
 }
 
