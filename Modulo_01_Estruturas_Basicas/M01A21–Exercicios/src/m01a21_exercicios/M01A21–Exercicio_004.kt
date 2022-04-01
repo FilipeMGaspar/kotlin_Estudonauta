@@ -16,6 +16,7 @@ fun main(args: Array<String>) {
 
     println("${AMARELO}------------ RESULTADOS ------------")
     println("Soma: ${RESET} ${AZUL} ${val1} + ${val2} = ${RESET} ${MAGENTA} ${val1 + val2} ${RESET}")
+    println("Subtração: ${RESET} ${AZUL} ${val1} - ${val2} = ${RESET} ${MAGENTA} ${val1 - val2} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
