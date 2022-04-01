@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     val2 = readLine()!!.toIntOrNull()?:0
 
     println("${AMARELO}------------ RESULTADOS ------------")
-    println("Soma: ${RESET} ${AZUL} ${val1} + ${val2} = ${RESET} ${VERDE} ${val1 + val2} ${RESET}")
+    println("Soma: ${RESET} ${AZUL} ${val1} + ${val2} = ${RESET} ${MAGENTA} ${val1 + val2} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
