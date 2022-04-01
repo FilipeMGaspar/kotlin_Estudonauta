@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     print("Nota 2: ")
     nota2 = readLine()!!.toFloatOrNull()?:0f
     println("${AMARELO}------------ RESULTADOS ----------------")
-    println("As notas do aluno foram ${RESET} ${MAGENTA} ${nota1} ${RESET} ${AMARELO} e ${RESET} ${MAGENTA} ${nota2} ${RESET}")
+    println("As notas do aluno foram${RESET}${MAGENTA} ${nota1}${RESET}${AMARELO} e${RESET}${MAGENTA} ${nota2}${RESET}")
     println("${AMARELO}----------------------------------------${RESET}")
 }
 
