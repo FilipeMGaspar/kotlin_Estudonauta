@@ -16,8 +16,8 @@ fun main(args: Array<String>) {
     println("${AMARELO}---------- REAJUSTANDO ----------")
     println("O salário anterior era${RESET}${AZUL} R$ ${salario}${RESET}")
     println("${AMARELO}O aumento será de${RESET}${AZUL} ${reajuste}%${RESET}")
-    println("E passará a ganha R$ ${salario+(salario * reajuste/100)}")
-    println("---------------------------------")
+    println("${AMARELO}E passará a ganha${RESET}${AZUL} R$ ${salario+(salario * reajuste/100)}${RESET}")
+    println("${AMARELO}---------------------------------${RESET}")
 
 }
 
