@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     expoent = readLine()!!.toIntOrNull()?:0
     println()
     println("${AMARELO}---------- Resultados ---------${RESET}")
-    println("")
+    println("${AMARELO}Calculando${RESET}${AZUL} ${base}${RESET}${AMARELO} elevado a${RESET}${AZUL} ${expoent} ${RESET}")
     println("${AMARELO}-------------------------------${RESET}")
 }
 
