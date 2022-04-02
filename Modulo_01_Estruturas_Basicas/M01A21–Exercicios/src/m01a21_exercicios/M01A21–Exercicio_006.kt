@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     println()
     println("${AMARELO}---------- Resultados ---------${RESET}")
     println("${AMARELO}Calculando${RESET}${AZUL} ${base}${RESET}${AMARELO} elevado a${RESET}${AZUL} ${expoent} ${RESET}")
-    println("${AMARELO}O resultado é${RESET}${AZUL} ${pow(base.toDouble(), expoent.toDouble()).toInt()}${RESET}")
+    println("${AMARELO}O resultado é${RESET}${AZUL} ${pow(base.toDouble(), expoent.toDouble())}${RESET}")
     println("${AMARELO}-------------------------------${RESET}")
 }
 
