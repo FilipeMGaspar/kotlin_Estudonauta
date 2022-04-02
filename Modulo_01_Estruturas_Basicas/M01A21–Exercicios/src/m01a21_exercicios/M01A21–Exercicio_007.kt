@@ -2,6 +2,7 @@ package m01a21_exercicios
 
 fun main(args: Array<String>) {
     var salario:Float
+    var reajuste:Float
 
     println(VERMELHO)
     println("---------------------------------")
@@ -9,6 +10,8 @@ fun main(args: Array<String>) {
     println("---------------------------------${RESET}")
     print("Salário: R$ ")
     salario = readLine()!!.toFloatOrNull()?:0f
+    print("Reajuste (%): ")
+    reajuste = readLine()!!.toFloatOrNull()?:0f
 }
 
 /*
