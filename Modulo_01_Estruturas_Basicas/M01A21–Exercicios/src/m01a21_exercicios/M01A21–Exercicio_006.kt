@@ -1,5 +1,6 @@
 package m01a21_exercicios
-
+import java.lang.Math.pow
+import kotlin.math.pow
 fun main(args: Array<String>) {
     var base:Int
     var expoent:Int
@@ -15,7 +16,7 @@ fun main(args: Array<String>) {
     println()
     println("${AMARELO}---------- Resultados ---------${RESET}")
     println("${AMARELO}Calculando${RESET}${AZUL} ${base}${RESET}${AMARELO} elevado a${RESET}${AZUL} ${expoent} ${RESET}")
-    println("")
+    println("${AMARELO}O resultado é${RESET}${AZUL} ${pow(base.toDouble(), expoent.toDouble())}${RESET}")
     println("${AMARELO}-------------------------------${RESET}")
 }
 
