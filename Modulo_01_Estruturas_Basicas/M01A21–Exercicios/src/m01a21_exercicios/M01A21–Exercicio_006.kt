@@ -12,6 +12,10 @@ fun main(args: Array<String>) {
     base = readLine()!!.toIntOrNull()?:0
     print("Expoênte: ")
     expoent = readLine()!!.toIntOrNull()?:0
+    println()
+    println("${AMARELO}---------- Resultados ---------${RESET}")
+    println("")
+    println("${AMARELO}-------------------------------${RESET}")
 }
 
 /*
