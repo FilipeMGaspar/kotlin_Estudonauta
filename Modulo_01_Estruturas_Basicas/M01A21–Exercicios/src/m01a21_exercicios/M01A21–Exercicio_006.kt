@@ -1,7 +1,10 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
-
+    println(AMARELO)
+    println("---------------------------------------------")
+    println("\t\t CÁCULO DE POTÊNCIA")
+    println("---------------------------------------------${RESET}")
 }
 
 /*
