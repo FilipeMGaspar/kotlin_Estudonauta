@@ -1,10 +1,14 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
+    var salario:Float
+
     println(VERMELHO)
     println("---------------------------------")
     println("\t\tREAJUSTE SALARIAL")
     println("---------------------------------${RESET}")
+    print("Salário: R$ ")
+    salario = readLine()!!.toFloatOrNull()?:0f
 }
 
 /*
