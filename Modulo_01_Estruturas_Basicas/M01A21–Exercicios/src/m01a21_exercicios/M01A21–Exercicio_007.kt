@@ -12,6 +12,13 @@ fun main(args: Array<String>) {
     salario = readLine()!!.toFloatOrNull()?:0f
     print("Reajuste (%): ")
     reajuste = readLine()!!.toFloatOrNull()?:0f
+    println()
+    println("---------- REAJUSTANDO ----------")
+    println("O salário anterior era R$ ${salario}")
+    println("O aumento será de ${reajuste}%")
+    println("E passará a ganha R$ ${salario+(salario * reajuste/100)}")
+    println("---------------------------------")
+
 }
 
 /*
