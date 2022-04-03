@@ -3,6 +3,8 @@ package m01a21_exercicios
 fun main(args: Array<String>) {
 
     var valorSacar:Int
+    var notas50:Int
+    var notas10:Int
 
     println(VERMELHO)
     println("------------------------------------")
@@ -12,11 +14,14 @@ fun main(args: Array<String>) {
     print("Que valor você quer sacar? R$ ")
     valorSacar = readLine()!!.toIntOrNull()?:0
 
+    notas50 = valorSacar / 80
+    notas10 = valorSacar - notas50 * 50 / 10
+    
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
-    println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${valorSacar/50} ${RESET}")
-    println("${AMARELO}R$10,00\t\t=${RESET}${AZUL}${(valorSacar - valorSacar/50 * 50)/10} ${RESET}")
-    println("${AMARELO}R$2,00\t\t=${RESET}${AZUL}${valorSacar/2} ${RESET}")
+    println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
+    println("${AMARELO}R$10,00\t\t=${RESET}${AZUL}${notas10} ${RESET}")
+    println("${AMARELO}R$2,00\t\t=${RESET}${AZUL}${(valorSacar - valorSacar/50 * 50) / 2}")
     println("${AMARELO}R$1,00\t\t=${RESET}${AZUL}${valorSacar/1} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
