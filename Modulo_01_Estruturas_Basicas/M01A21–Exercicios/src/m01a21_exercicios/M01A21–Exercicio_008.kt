@@ -25,14 +25,15 @@ fun main(args: Array<String>) {
     valorRestante -= notas10 * 10 // valorRestante = valorRestante - notas10 * 10 // valorRestante = valorSacar - (notas50 * 50 + notas10 * 10)
     notas2 = valorRestante / 2
 
-    moeda1 = (valorSacar - (notas50 *50 + notas10 * 10 + notas2 * 2)) / 1
+    valorRestante -= notas2 * 2 // valorRestante = valorRestante - notas2 * 2  // (valorSacar - (notas50 *50 + notas10 * 10 + notas2 * 2)) / 1
+    moeda1 = valorRestante / 1
 
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
-    println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
-    println("${AMARELO}R$10,00\t\t=${RESET}${AZUL}${notas10} ${RESET}")
-    println("${AMARELO}R$2,00\t\t=${RESET}${AZUL}${notas2}")
-    println("${AMARELO}R$1,00\t\t=${RESET}${AZUL}${moeda1} ${RESET}")
+    println("${AMARELO}\tR$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
+    println("${AMARELO}\tR$10,00\t\t=${RESET}${AZUL}${notas10} ${RESET}")
+    println("${AMARELO}\tR$2,00\t\t=${RESET}${AZUL}${notas2}")
+    println("${AMARELO}\tR$1,00\t\t=${RESET}${AZUL}${moeda1} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
