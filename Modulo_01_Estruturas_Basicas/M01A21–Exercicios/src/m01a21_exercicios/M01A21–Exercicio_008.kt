@@ -12,13 +12,13 @@ fun main(args: Array<String>) {
     print("Que valor você quer sacar? R$ ")
     valorSacar = readLine()!!.toIntOrNull()?:0
 
-    println(AMARELO)
-    println("--------- SAQUE REALIZADO ---------")
-    println("R$50,00\t\t=")
-    println("R$10,00\t\t=")
-    println("R$2,00\t\t=")
-    println("R$1,00\t\t=")
-    println("------------------------------------${RESET}")
+    println()
+    println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
+    println("${AMARELO}R$50,00${RESET}\t\t=${AZUL} ${RESET}")
+    println("${AMARELO}R$10,00${RESET}\t\t=${AZUL} ${RESET}")
+    println("${AMARELO}R$2,00${RESET}\t\t=${AZUL} ${RESET}")
+    println("${AMARELO}R$1,00${RESET}\t\t=${AZUL} ${RESET}")
+    println("${AMARELO}------------------------------------${RESET}")
 }
 
 /**
