@@ -18,9 +18,13 @@ fun main(args: Array<String>) {
     valorSacar = readLine()!!.toIntOrNull()?:0
 
     notas50 = valorSacar / 50
-    valorRestante = valorSacar - notas50 *50
+
+    valorRestante = valorSacar - notas50 * 50
     notas10 = valorRestante / 10
-    notas2 = (valorSacar - (notas50 * 50 + notas10 *10)) /2
+
+    valorRestante = valorSacar - valorRestante * 10
+    notas2 = valorRestante /2
+    
     moeda1 = (valorSacar - (notas50 *50 + notas10 * 10 + notas2 * 2)) / 1
 
     println()
