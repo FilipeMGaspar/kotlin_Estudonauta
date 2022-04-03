@@ -3,9 +3,11 @@ package m01a21_exercicios
 fun main(args: Array<String>) {
 
     var valorSacar:Int
+    var valorRestante:Int = 0
     var notas50:Int
     var notas10:Int
     var notas2:Int
+    var moeda1:Int
 
     println(VERMELHO)
     println("------------------------------------")
@@ -16,15 +18,17 @@ fun main(args: Array<String>) {
     valorSacar = readLine()!!.toIntOrNull()?:0
 
     notas50 = valorSacar / 50
-    notas10 = (valorSacar - notas50 * 50) / 10
+    valorRestante = valorSacar - notas50 *50
+    notas10 = valorRestante / 10
     notas2 = (valorSacar - (notas50 * 50 + notas10 *10)) /2
+    moeda1 = (valorSacar - (notas50 *50 + notas10 * 10 + notas2 * 2)) / 1
 
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
     println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
     println("${AMARELO}R$10,00\t\t=${RESET}${AZUL}${notas10} ${RESET}")
     println("${AMARELO}R$2,00\t\t=${RESET}${AZUL}${notas2}")
-    println("${AMARELO}R$1,00\t\t=${RESET}${AZUL}${valorSacar/1} ${RESET}")
+    println("${AMARELO}R$1,00\t\t=${RESET}${AZUL}${moeda1} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
