@@ -9,11 +9,15 @@ fun main(args: Array<String>) {
     println("\t\tBANCO ESTUDONAUTA")
     println("------------------------------------${RESET}")
 
-    print("que valor você quer sacar? R$ ")
+    print("Que valor você quer sacar? R$ ")
     valorSacar = readLine()!!.toIntOrNull()?:0
 
     println(AMARELO)
     println("--------- SAQUE REALIZADO ---------")
+    println("R$50,00\t\t=")
+    println("R$10,00\t\t=")
+    println("R$2,00\t\t=")
+    println("R$1,00\t\t=")
     println("------------------------------------${RESET}")
 }
 
