@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
 
     //valorRestante = valorSacar - (notas50 * 50 + notas10 * 10)
     println(valorRestante)
-    valorRestante -= notas10 * 10
+    valorRestante = valorRestante - notas10 * 10
     println(valorRestante)
     notas2 = valorRestante / 2
 
