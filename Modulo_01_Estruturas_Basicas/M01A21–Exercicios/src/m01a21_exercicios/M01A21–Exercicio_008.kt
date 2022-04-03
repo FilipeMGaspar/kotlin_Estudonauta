@@ -1,13 +1,19 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
+
+    var valorSacar:Int
+
     println(VERMELHO)
     println("------------------------------------")
     println("\t\tBANCO ESTUDONAUTA")
     println("------------------------------------${RESET}")
 
+    print("que valor você quer sacar? R$ ")
+    valorSacar = readLine()!!.toIntOrNull()?:0
+
     println(AMARELO)
-    println("------------------------------------")
+    println("--------- SAQUE REALIZADO ---------")
     println("------------------------------------${RESET}")
 }
 
