@@ -6,9 +6,9 @@ fun main(args: Array<String>) {
     println("\t\tBANCO ESTUDONAUTA")
     println("------------------------------------${RESET}")
 
-    println()
+    println(AMARELO)
     println("------------------------------------")
-    println("------------------------------------")
+    println("------------------------------------${RESET}")
 }
 
 /**
