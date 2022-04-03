@@ -1,7 +1,11 @@
 package m01a21_exercicios
 
+fun main(args: Array<String>) {
+    
+}
+
 /**
- * 
+ *
  *     Exercício 8         Somente 50, 10, 2, 1
  *
  *  -----------------------------
