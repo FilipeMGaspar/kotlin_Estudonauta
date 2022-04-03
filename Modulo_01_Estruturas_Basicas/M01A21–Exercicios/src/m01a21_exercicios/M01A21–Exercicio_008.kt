@@ -14,10 +14,10 @@ fun main(args: Array<String>) {
 
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
-    println("${AMARELO}R$50,00\t\t=${RESET}${AZUL} ${RESET}")
-    println("${AMARELO}R$10,00\t\t=${RESET}${AZUL} ${RESET}")
-    println("${AMARELO}R$2,00\t\t=${RESET}${AZUL} ${RESET}")
-    println("${AMARELO}R$1,00\t\t=${RESET}${AZUL} ${RESET}")
+    println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${valorSacar/50} ${RESET}")
+    println("${AMARELO}R$10,00\t\t=${RESET}${AZUL}${(valorSacar - valorSacar/50 * 50)/10} ${RESET}")
+    println("${AMARELO}R$2,00\t\t=${RESET}${AZUL}${valorSacar/2} ${RESET}")
+    println("${AMARELO}R$1,00\t\t=${RESET}${AZUL}${valorSacar/1} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
