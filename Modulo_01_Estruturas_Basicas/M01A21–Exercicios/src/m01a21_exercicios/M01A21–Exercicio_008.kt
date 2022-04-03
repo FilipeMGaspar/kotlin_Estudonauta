@@ -14,9 +14,9 @@ fun main(args: Array<String>) {
     print("Que valor você quer sacar? R$ ")
     valorSacar = readLine()!!.toIntOrNull()?:0
 
-    notas50 = valorSacar / 80
+    notas50 = valorSacar / 50
     notas10 = valorSacar - notas50 * 50 / 10
-    
+
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
     println("${AMARELO}R$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
