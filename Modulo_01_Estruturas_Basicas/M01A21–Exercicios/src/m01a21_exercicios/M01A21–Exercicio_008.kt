@@ -22,9 +22,11 @@ fun main(args: Array<String>) {
     valorRestante = valorSacar - notas50 * 50
     notas10 = valorRestante / 10
 
+    println("Valor restante ${valorRestante}")
     valorRestante = valorSacar - valorRestante * 10
-    notas2 = valorRestante /2
-    
+    println("Valor restante ${valorRestante}")
+    notas2 = valorRestante / 2
+
     moeda1 = (valorSacar - (notas50 *50 + notas10 * 10 + notas2 * 2)) / 1
 
     println()
