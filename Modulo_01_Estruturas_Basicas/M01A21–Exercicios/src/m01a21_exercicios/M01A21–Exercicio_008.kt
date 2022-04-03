@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     valorSacar = readLine()!!.toIntOrNull()?:0
 
     notas50 = valorSacar / 50
-    notas10 = valorSacar - notas50 * 50 / 10
+    notas10 = (valorSacar - notas50 * 50) / 10
 
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
