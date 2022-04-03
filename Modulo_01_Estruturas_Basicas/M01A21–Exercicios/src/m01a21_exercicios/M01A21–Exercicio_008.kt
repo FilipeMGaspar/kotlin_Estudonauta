@@ -1,7 +1,14 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
-    
+    println(VERMELHO)
+    println("------------------------------------")
+    println("\t\tBANCO ESTUDONAUTA")
+    println("------------------------------------${RESET}")
+
+    println()
+    println("------------------------------------")
+    println("------------------------------------")
 }
 
 /**
