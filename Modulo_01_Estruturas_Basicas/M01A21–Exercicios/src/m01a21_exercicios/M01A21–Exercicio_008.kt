@@ -30,10 +30,10 @@ fun main(args: Array<String>) {
 
     println()
     println("${ AMARELO}--------- SAQUE REALIZADO ---------${RESET}")
-    println("${AMARELO}\tR$50,00\t\t=${RESET}${AZUL}${notas50} ${RESET}")
-    println("${AMARELO}\tR$10,00\t\t=${RESET}${AZUL}${notas10} ${RESET}")
-    println("${AMARELO}\tR$2,00\t\t=${RESET}${AZUL}${notas2}")
-    println("${AMARELO}\tR$1,00\t\t=${RESET}${AZUL}${moeda1} ${RESET}")
+    println("${AMARELO}\tR$50,00\t\t=${RESET}${AZUL}\t${notas50} ${RESET}")
+    println("${AMARELO}\tR$10,00\t\t=${RESET}${AZUL}\t${notas10} ${RESET}")
+    println("${AMARELO}\tR$2,00\t\t=${RESET}${AZUL}\t${notas2}")
+    println("${AMARELO}\tR$1,00\t\t=${RESET}${AZUL}\t${moeda1} ${RESET}")
     println("${AMARELO}------------------------------------${RESET}")
 }
 
