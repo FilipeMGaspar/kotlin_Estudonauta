@@ -15,7 +15,8 @@ fun main(args: Array<String>) {
     palpite = readLine()!!.toIntOrNull()?:0
 
     println()
-    println("--------------------------------------")
+    println("------------- RESULTADOS -------------")
+    println("Você disse que seria o valor ${palpite}")
     println("--------------------------------------")
 }
 
