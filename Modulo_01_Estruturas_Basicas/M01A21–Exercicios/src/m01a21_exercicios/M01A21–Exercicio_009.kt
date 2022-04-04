@@ -15,11 +15,11 @@ fun main(args: Array<String>) {
     palpite = readLine()!!.toIntOrNull()?:0
 
     println()
-    println("------------- RESULTADOS -------------")
-    println("Você disse que seria o valor ${palpite}")
-    println("Eu pensei no número ${numPensado}")
-    println("A diferença foi de ")
-    println("--------------------------------------")
+    println("${AMARELO}------------- RESULTADOS -------------")
+    println("Você disse que seria o valor${RESET} ${AZUL}${palpite}${RESET}")
+    println("${AMARELO}Eu pensei no número${RESET} ${CIANO}${numPensado}${RESET}")
+    println("${AMARELO}A diferença foi de${RESET} ${VERDE}klj${RESET}")
+    println("${AMARELO}--------------------------------------${RESET}")
 }
 
 /*
