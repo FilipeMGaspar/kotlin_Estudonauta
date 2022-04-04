@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     println("------------------------------------")
     println("\t\tTENTE ADIVINHAR")
     println("------------------------------------${RESET}")
-    println("${AZUL}Vou \"Pensar\" em um número entre 0 e 5"${RESET}")
+    println("${AZUL}Vou \"Pensar\" em um número entre 0 e 5${RESET}")
     print("O seu palpite : ")
     palpite = readLine()!!.toIntOrNull()?:0
 }
