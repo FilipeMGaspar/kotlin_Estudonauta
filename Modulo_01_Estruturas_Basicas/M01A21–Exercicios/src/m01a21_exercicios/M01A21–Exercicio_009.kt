@@ -5,6 +5,7 @@ import java.lang.Math.random
 fun main(args: Array<String>) {
     var palpite:Int
     var numPensado:Int = (0..5).random()
+    var diferenca:Int
 
     println(VERMELHO)
     println("------------------------------------")
@@ -14,11 +15,13 @@ fun main(args: Array<String>) {
     print("O seu palpite : ")
     palpite = readLine()!!.toIntOrNull()?:0
 
+    diferenca = palpite - numPensado
+
     println()
     println("${AMARELO}------------- RESULTADOS -------------")
     println("Você disse que seria o valor${RESET} ${AZUL}${palpite}${RESET}")
-    println("${AMARELO}Eu pensei no número${RESET} ${CIANO}${numPensado}${RESET}")
-    println("${AMARELO}A diferença foi de${RESET} ${VERDE}klj${RESET}")
+    println("${AMARELO}Eu pensei no número${RESET} ${MAGENTA}${numPensado}${RESET}")
+    println("${AMARELO}A diferença foi de${RESET} ${VERDE}${diferenca}${RESET}")
     println("${AMARELO}--------------------------------------${RESET}")
 }
 
