@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
     println("------------- RESULTADOS -------------")
     println("Você disse que seria o valor ${palpite}")
     println("Eu pensei no número ${numPensado}")
+    println("A diferença foi de ")
     println("--------------------------------------")
 }
 
