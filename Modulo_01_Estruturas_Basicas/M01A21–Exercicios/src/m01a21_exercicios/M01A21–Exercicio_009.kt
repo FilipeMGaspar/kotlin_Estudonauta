@@ -1,11 +1,15 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
+    var palpite:Int
+
     println(VERMELHO)
     println("------------------------------------")
     println("\t\tTENTE ADIVINHAR")
     println("------------------------------------${RESET}")
     println("${AZUL}Vou \"Pensar\" em um número entre 0 e 5"${RESET}")
+    print("O seu palpite : ")
+    palpite = readLine()!!.toIntOrNull()?:0
 }
 
 /*
