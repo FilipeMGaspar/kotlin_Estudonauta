@@ -1,10 +1,10 @@
 package m01a21_exercicios
 
 fun main(args: Array<String>) {
-    println()
+    println(VERMELHO)
     println("------------------------------------")
     println("\t\tTENTE ADIVINHAR")
-    println("------------------------------------")
+    println("------------------------------------${RESET}")
 }
 
 /*
