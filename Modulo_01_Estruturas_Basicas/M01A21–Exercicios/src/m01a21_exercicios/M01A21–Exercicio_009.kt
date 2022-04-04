@@ -1,6 +1,7 @@
 package m01a21_exercicios
 
 import java.lang.Math.random
+import kotlin.math.absoluteValue
 
 fun main(args: Array<String>) {
     var palpite:Int
@@ -15,7 +16,7 @@ fun main(args: Array<String>) {
     print("O seu palpite : ")
     palpite = readLine()!!.toIntOrNull()?:0
 
-    diferenca = palpite - numPensado
+    diferenca = (palpite - numPensado).absoluteValue
 
     println()
     println("${AMARELO}------------- RESULTADOS -------------")
