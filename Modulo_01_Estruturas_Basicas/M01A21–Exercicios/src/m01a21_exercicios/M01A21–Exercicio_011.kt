@@ -10,6 +10,8 @@ fun main(args: Array<String>) {
     println("\tANALISANDO O MÊS ATUAL")
     println("----------------------------------------${RESET}")
     println("${AMARELO}Estamos no mês${RESET}${AZUL}${dataAtual.monthValue} de ${dataAtual.year}${RESET}")
+    println("${AMARELO}Esse mês no${RESET}${AZUL} º semestre${RESET}")
+    println("${ AMARELO}E está no${RESET}${AZUL} º trimestre${RESET}")
     println("${AMARELO}----------------------------------------${RESET}")
 }
 
