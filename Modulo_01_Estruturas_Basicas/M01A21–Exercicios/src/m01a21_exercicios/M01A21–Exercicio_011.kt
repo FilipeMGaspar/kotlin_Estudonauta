@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     println("----------------------------------------${RESET}")
     println("${AMARELO}Estamos no mês${RESET}${AZUL}${dataAtual.monthValue} de ${dataAtual.year}${RESET}")
     println("${AMARELO}Esse mês está no${RESET}${AZUL}${((dataAtual.monthValue - 1) / 6) + 1}º semestre${RESET}")
-    println("${ AMARELO}E pertense ao${RESET}${AZUL}${((dataAtual.monthValue - 1) / 3) + 1}º trimestre${RESET}")
+    println("${ AMARELO}E pertence ao${RESET}${AZUL}${((dataAtual.monthValue - 1) / 3) + 1}º trimestre${RESET}")
     println("${AMARELO}----------------------------------------${RESET}")
 }
 
