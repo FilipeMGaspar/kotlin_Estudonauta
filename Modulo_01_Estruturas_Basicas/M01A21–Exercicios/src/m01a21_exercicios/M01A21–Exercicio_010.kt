@@ -5,6 +5,8 @@ fun main(args: Array<String>) {
     println("------------------------------")
     println("\t\tSUA IDADE")
     println("------------------------------${RESET}")
+    println("${AZUL}Vou conseguir descobrir a sua idade${RESET}")
+    print("Em que ano você nasceu? ")
 }
 
 /*
