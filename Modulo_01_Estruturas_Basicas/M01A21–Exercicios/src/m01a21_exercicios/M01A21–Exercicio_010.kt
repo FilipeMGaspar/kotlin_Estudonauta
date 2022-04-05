@@ -2,9 +2,9 @@ package m01a21_exercicios
 
 fun main(args: Array<String>) {
     println(VERMELHO)
-    println("----------------------------------")
+    println("--------------------------------")
     println("\t\tSUA IDADE")
-    println("----------------------------------${RESET}")
+    println("--------------------------------${RESET}")
 }
 
 /*
