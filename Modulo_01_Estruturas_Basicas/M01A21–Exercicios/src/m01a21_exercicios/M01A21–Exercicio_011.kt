@@ -4,7 +4,13 @@ import java.time.LocalDateTime
 
 fun main(args: Array<String>) {
     var dataAtual = LocalDateTime.now()
-    
+
+    println(VERMELHO)
+    println("----------------------------------------")
+    println("\tANALISANDO O MÊS ATUAL")
+    println("----------------------------------------${RESET}")
+    println("${AMARELO}Estamos no mês${RESET}${AZUL}${dataAtual.monthValue} de ${dataAtual.year}${RESET}")
+    println("${AMARELO}----------------------------------------${RESET}")
 }
 
 /*
