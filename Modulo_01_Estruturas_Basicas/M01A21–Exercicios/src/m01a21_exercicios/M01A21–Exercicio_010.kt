@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
     println("----------- RESULTADOS -----------")
     println("Atualmente estamos em${RESET} ${MAGENTA}${dataAtual.year}${RESET}")
     println("${AMARELO}você, que nasceu em${RESET} ${MAGENTA}${anoNascimento}${RESET}")
-    println("${AMARELO}Completa${RESET} ${AZUL}${dataAtual.year - anoNascimento}${RESET} ${AMARELO}nesse ano.")
+    println("${AMARELO}Completa${RESET}${AZUL}${dataAtual.year - anoNascimento}${RESET} ${AMARELO}anos nesse ano.")
     println("----------------------------------${RESET}")
 }
 
