@@ -1,5 +1,12 @@
 package m01a21_exercicios
 
+fun main(args: Array<String>) {
+    println(VERMELHO)
+    println("----------------------------------")
+    println("\t\tSUA IDADE")
+    println("----------------------------------${RESET}")
+}
+
 /*
 *
 *     Exercício 10
@@ -15,5 +22,5 @@ package m01a21_exercicios
 *   Você, que nasceu em 2000
 *   Completa 19 anos neste ano.
 *   ---------------------------------------
-* 
+*
 * */
