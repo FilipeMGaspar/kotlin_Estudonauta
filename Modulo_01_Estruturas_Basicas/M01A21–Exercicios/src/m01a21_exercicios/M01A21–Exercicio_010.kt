@@ -16,9 +16,11 @@ fun main(args: Array<String>) {
     anoNascimento = readLine()!!.toIntOrNull()?:0
 
     println(AMARELO)
+    println("----------- RESULTADOS -----------")
     println("Atualmente estamos em${RESET} ${MAGENTA}${dataAtual.year}${RESET}")
     println("${AMARELO}você, que nasceu em${RESET} ${MAGENTA}${anoNascimento}${RESET}")
     println("${AMARELO}Completa${RESET} ${AZUL}${dataAtual.year - anoNascimento}${RESET} ${AMARELO}nesse ano.")
+    println("----------------------------------${RESET}")
 }
 
 /*
