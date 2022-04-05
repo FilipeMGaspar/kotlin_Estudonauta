@@ -1,7 +1,10 @@
 package m01a21_exercicios
 
-fun main(args: Array<String>) {
+import java.time.LocalDateTime
 
+fun main(args: Array<String>) {
+    var dataAtual = LocalDateTime.now()
+    
 }
 
 /*
